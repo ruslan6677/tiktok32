@@ -179,4 +179,14 @@ languages = {
         "nickname": "Нік",
         "large_for_tg": "відео занадто велике для telegram(обмеження в 20 МБ), але ви можете завантажити відео за посиланням",
     },
+    "az": {
+        "help": "Tiktok easy'den video vəya rəsim endirin\nMənə bir video bağlantısı göndərin.\nXəta yaşanarsa mənə mesaj atın @AnonyumAz",
+        "invalid_link": "Geçərsiz link, xaiş lütfən doğru linki göndərin. Məsələn:\nhttps://vm.tiktok.com/abcdefg/",
+        "wait": "Gözləyin!\nVideonuz Endirilir...",
+        "likes": "Bəyənən",
+        "comments": "Yorumlar",
+        "share": "Paylaşan",
+        "views": "Görüntüləmə",
+        "nickname": "Profil Adı",
+        "large_for_tg": "video telegrap üçün çoxdur (20 MB limit"), ancaq video link ilə endirə bilərsiz",
 }
