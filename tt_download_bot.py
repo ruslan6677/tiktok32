@@ -48,13 +48,13 @@ async def tt_download(message: types.Message):
         response = await tt_videos_or_images(link)
         if len(response["items"]) > 0:
             await message.reply(f'❤️ {languages[user_lang]["likes"]}:{response["statistic"]["digg_count"]}\n💬 {languages[user_lang]["comments"]}:{response["statistic"]["comment_count"]}\n📢 {languages[user_lang]["share"]}:{response["statistic"]["share_count"]}\n👤 {languages[user_lang]["views"]}:{response["statistic"]["play_count"]}\n🗣 {languages[user_lang]["nickname"]}:{response["nickname"]}\n{response["desc"]}')
-            await message.reply_audio(response["music"], caption='@XLR_TT_BOT')
+            await message.reply_audio(response["music"], caption='@TikTokDowlandBot')
             if response["is_video"]:
                 print("items", response["items"][0])
                 if response["large_for_tg"]:
                     await message.reply(f'{languages[user_lang]["large_for_tg"]}:{response["items"][0]}')
                 else:
-                    await message.reply_video(response["items"][0], caption='@XLR_TT_BOT')
+                    await message.reply_video(response["items"][0], caption='@TikTokDowlandBot')
             # images
             else:
                 # metod1 download,convert to jpg, load to telegram, send MediaGroup
