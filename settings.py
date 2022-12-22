@@ -189,4 +189,5 @@ languages = {
         "views": "Görüntüləmə",
         "nickname": "Profil Adı",
         "large_for_tg": "video telegrap üçün çoxdur (20 MB limit"), ancaq video link ilə endirə bilərsiz",
+    },
 }
